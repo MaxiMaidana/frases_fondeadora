@@ -1,0 +1,32 @@
+name: fondeadora_frase
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.2
+  mockito: ^5.1.0
+  dio: ^4.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test:
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - data_fake/credentials.json
+  
